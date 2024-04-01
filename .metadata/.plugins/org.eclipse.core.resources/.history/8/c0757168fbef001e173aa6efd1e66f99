@@ -1,0 +1,28 @@
+package Searching;
+import java.util.*;
+public class FindPeek {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> Ar = new ArrayList<>(Arrays.asList(2,3,5,50,6,2,2,5,25,43));
+		int start =0 , end = Ar.size()-1;
+		int mid = start+(end-start)/2;
+		int init=mid;
+		System.out.println(Ar);
+		while(start<end) {
+			if((Ar.get(mid)>Ar.get(mid-1)) && (Ar.get(mid)>Ar.get(mid+1))  ) {
+				System.out.println("The Peek Element is : " + Ar.get(mid));
+
+				break;
+			}
+			else if(mid > Ar.size()-2 ) {
+				end = init;
+				start = 0;
+			}
+			else {
+				start=mid;
+			}
+			mid = start+(end-start)/2;
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package Searching;
+import java.util.*;
+public class FindPeek {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> Ar = new ArrayList<>(Arrays.asList(2,3,5,6,2,20,5,25,43));
+		int start =0 , end = Ar.size()-1;
+		System.out.println(Ar.get(end));
+	}
+
+}

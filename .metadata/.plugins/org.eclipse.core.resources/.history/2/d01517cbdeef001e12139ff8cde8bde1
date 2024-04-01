@@ -1,0 +1,30 @@
+package Searching;
+import java.util.*;
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> Ar = new ArrayList<>(Arrays.asList(23,43,2,44,45,96,23,65,23,65,132,54,12,54,2,13,43,1));
+		Collections.sort(Ar);
+		System.out.println(Ar);
+		int size = Ar.size()-1,target = 96;
+		int mid = size/2;
+		int start = 0 ,end = size;
+		while(size!=0) {
+			if(Ar.get(mid)==target) {
+				System.out.println("Element Found at Index : "+mid);
+			}
+			else {
+				if(Ar.get(mid)<target) {
+					mid = ;
+				}
+				else {
+					size = mid;
+				}
+			}
+			mid = size/2;
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package SearchingPrograms;
+import java.util.*;
+public class BookAllocation {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> bookpages = new ArrayList<>(Arrays.asList(10,20,30,40,50,60));
+		int mark = 1;
+		ArrayList<Integer> StudentMax = new ArrayList<>();
+		int S1 = bookpages.get(0);
+		int S2=0;
+		for(int j=mark;j<bookpages.size();j++) {
+		for(int i=mark;i<bookpages.size()-1;i++) {
+			S2 = S2 + bookpages.get(i);
+		}
+		StudentMax.add(S2);
+		}
+		System.out.println(StudentMax);
+	}
+
+}
