@@ -1,0 +1,11 @@
+package Sorting;
+public class QuickSort {
+	public static void main(String[] args) {
+//Merge Sort -> Divide and Conquer Method
+		int[] arr = {2,42,53,64,23,4,23,53};
+		int p1= arr[0];
+		int p2 = arr.length;
+		System.out.println(p1 + "" +p2);
+	}
+
+}

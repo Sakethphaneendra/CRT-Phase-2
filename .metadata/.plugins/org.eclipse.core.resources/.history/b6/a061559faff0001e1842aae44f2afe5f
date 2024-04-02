@@ -1,0 +1,30 @@
+package Sorting;
+
+import java.util.Arrays;
+
+public class QuickSort {
+	public static void main(String[] args) {
+//Merge Sort -> Divide and Conquer Method
+		int[] arr = {2,42,53,64,23,4,23,233};
+		int p1= arr[0];
+		int p2;
+
+		for(int i=0;i<arr.length;i++) {
+			
+			p1 = i;
+			p2 = (arr.length-1) - i;
+			System.out.println(arr[p1] + " " + arr[p2]);
+			if(p1 < arr.length) {	
+				if(arr[p1]>arr[p2]) {
+					int temp = arr[p1];
+					arr[p1] = arr[p2];
+					arr[p2] = temp;
+				}
+				System.out.println(arr[p1] +"  "+ arr[p2]);
+			}
+		}
+		System.out.print(Arrays.toString(arr));
+	
+	}
+
+}

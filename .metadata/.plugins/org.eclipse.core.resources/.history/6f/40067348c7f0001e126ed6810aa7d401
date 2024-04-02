@@ -1,0 +1,32 @@
+package LinkedList;
+import java.util.*;
+public class AddingValuesInLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList<String> L = new LinkedList<>();
+		L.add("A");
+		L.add("B");
+		L.add("C");
+		L.add("D");
+		display(L);
+		CustArryList();
+	}
+	public static void display(LinkedList<String> D) {
+			for(String dd : D) {
+				System.out.println(dd);
+			}
+	}
+	public static void CustArryList() {
+		LinkedList<String> L2 = new LinkedList<>();
+		L2.add(0,"A");
+		L2.add(2,"B");
+		L2.add(3,"C");
+		L2.add(4,"D");
+		for(String dd : L2) {
+			System.out.println(dd);
+		}
+	}
+
+	
+}
+//LinkedList 4 nodes Display in Function head pointer but java support pointers. 
