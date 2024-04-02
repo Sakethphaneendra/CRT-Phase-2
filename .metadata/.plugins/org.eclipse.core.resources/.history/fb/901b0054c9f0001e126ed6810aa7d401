@@ -1,0 +1,24 @@
+package LinkedList;
+import java.util.*;
+public class LinkedList {
+
+	public static void main(String[] args) {
+        // Create a new Scanner object
+        Scanner scanner = new Scanner(System.in);
+
+        // Create an ArrayList to store the input
+        ArrayList<Integer> input = new ArrayList<>();
+
+        // Read the input from the user
+        while (scanner.hasNextInt()) {
+            input.add(scanner.nextInt());
+        }
+
+        // Print the input
+        for (int i = 0; i < input.size(); i++) {
+            System.out.println(input.get(i));
+        }
+    }
+
+}
+

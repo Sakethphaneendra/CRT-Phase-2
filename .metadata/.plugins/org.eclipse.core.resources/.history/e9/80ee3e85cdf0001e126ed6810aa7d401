@@ -1,0 +1,15 @@
+package LinkedList;
+import java.util.*;
+public class LinkedList {
+
+	public static void main(String[] args) {
+        // Create a new Scanner object
+        Scanner scanner = new Scanner(System.in);
+        Integer ds=Integer.MIN_VALUE;
+System.out.println(ds);
+        // Create an ArrayList to store the input
+       
+    }
+
+}
+

@@ -1,0 +1,17 @@
+package LinkedList;
+import java.util.*;
+public class AddingValuesInLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList<String> L = new LinkedList<>();
+		L.add("saketh");
+		L.add("saketh1");
+		L.add("saketh2");
+		System.out.println(L.element());
+		for(String s :L) {
+			System.out.println(s);
+		}
+
+	}
+
+}

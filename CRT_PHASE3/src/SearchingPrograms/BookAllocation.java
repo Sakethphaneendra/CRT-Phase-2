@@ -2,7 +2,7 @@ package SearchingPrograms;
 import java.util.*;
 public class BookAllocation {
 	public static void main(String[] args) {
-		ArrayList<Integer> bookpages = new ArrayList<>(Arrays.asList(10,20,30,40,50,230,443));
+		ArrayList<Integer> bookpages = new ArrayList<>(Arrays.asList(10,20,30,40,50));
 		int mark = 1;
 		ArrayList<Integer> StudentMax = new ArrayList<>();
 		int S1 =0;

@@ -1,0 +1,16 @@
+package LinkedList;
+import java.util.*;
+public class AddingValuesInLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList<String> L = new LinkedList<>();
+		L.add("A");
+		L.add("B");
+		L.add("C");
+		L.add("D");
+		
+
+	}
+
+}
+//LinkedList 4 nodes Display in Function head pointer 

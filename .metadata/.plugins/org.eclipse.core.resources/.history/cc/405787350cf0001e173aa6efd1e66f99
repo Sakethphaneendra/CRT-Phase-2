@@ -1,0 +1,15 @@
+package SearchingPrograms;
+import java.util.*;
+public class PageAllocationUsingBS {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> BK = new ArrayList<>(Arrays.asList(10,20,30,40));
+		int TotalPages = 0;
+		for(int i=0;i<BK.size()-1;i++) {
+			TotalPages = TotalPages + BK.get(i);
+			System.out.println(TotalPages);
+		}
+		
+	}
+
+}

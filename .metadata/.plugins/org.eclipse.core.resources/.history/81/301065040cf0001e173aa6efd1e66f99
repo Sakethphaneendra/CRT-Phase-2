@@ -1,0 +1,9 @@
+package SearchingPrograms;
+import java.util.*;
+public class PageAllocationUsingBS {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> BK = new ArrayList<>(Arrays.asList(10,20,30,40));
+	}
+
+}
